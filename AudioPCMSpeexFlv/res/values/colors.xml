@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="voice_bt_pressed">#116E27</color>
+    <color name="voice_bt_normal">#91EEA5</color>
+</resources>

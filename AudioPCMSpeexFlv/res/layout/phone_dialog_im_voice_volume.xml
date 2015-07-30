@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sound_volume_bk"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/phone_im_sound_volume_default_bk"
+    android:gravity="center|right"
+    android:padding="20dp" >
+
+    <TextView
+        android:id="@+id/tv_record_over_time_warning"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="-46dp"
+        android:layout_marginLeft="40dp"
+        android:text="您还可以说9s"
+        android:visibility="invisible"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/sound_volume_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="-6dp"
+        android:layout_marginRight="30dp"
+        android:src="@drawable/phone_im_sound_volume_01" />
+
+</LinearLayout>
